@@ -59,10 +59,6 @@ const config: Config = {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
-      backgroundImage: {
-        "hero-pattern": "url('/images/carabao_capital_hero.webp')",
-        "hero-bg-pattern": "url('/images/carabao_capital_hero_bg.webp')",
-      },
       boxShadow: {
         vignette: "inset 0 0 100px #000",
       },
