@@ -50,7 +50,6 @@ const AboutCards: React.FC = () => {
               Our hands-on approach and extensive network enable us to actively
               support our portfolio companies in achieving their full potential.
             </p>
-
             <div className="mt-4 hidden h-px w-1/2 bg-primary bg-opacity-30 lg:block"></div>
           </div>
         </div>
