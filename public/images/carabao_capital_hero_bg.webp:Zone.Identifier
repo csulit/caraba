@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://cloudconvert.com/
+HostUrl=https://eu-central.storage.cloudconvert.com/tasks/05575d60-6603-4df7-9312-a566bb1bf818/carabao_capital_hero_bg.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20241024%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20241024T034929Z&X-Amz-Expires=86400&X-Amz-Signature=b069363791628707b5e7979cde9958b24e4abe47dccc3554025fa159d8493656&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22carabao_capital_hero_bg.webp%22&response-content-type=image%2Fwebp&x-id=GetObject
