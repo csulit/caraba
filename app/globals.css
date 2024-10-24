@@ -78,7 +78,6 @@ body {
   }
   .vignette img {
     display: block;
-    border: 1px solid #fff;
   }
 
   .vignette:after {
