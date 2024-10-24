@@ -29,7 +29,7 @@ const Hero: React.FC = () => {
         <div className="absolute h-full w-full">
           <div className="container mx-auto flex h-full flex-row items-end p-6 lg:items-center xl:p-0">
             <div className="mt-4 flex w-full flex-col md:justify-center lg:mt-0 lg:w-1/2">
-              <div className="flex flex-col items-center gap-1 rounded-xl md:p-6 lg:items-start lg:gap-4">
+              <div className="flex flex-col items-center gap-4 rounded-xl md:p-6 lg:items-start">
                 <h1 className="hidden font-semibold text-white drop-shadow-lg md:text-4xl lg:flex">
                   Welcome to
                 </h1>
@@ -48,7 +48,7 @@ const Hero: React.FC = () => {
                 <Button
                   variant="secondary"
                   size="sm"
-                  className="w-32 rounded-full font-bold lg:mt-12"
+                  className="hidden w-32 rounded-full font-bold md:block lg:mt-12"
                   onClick={() => router.push("contact")}
                 >
                   Contact Us

@@ -40,7 +40,7 @@ const AboutHero: React.FC = () => {
             </div>
 
             <div className="mt-4 flex w-full flex-col md:justify-center lg:mt-0 lg:w-1/2">
-              <div className="flex flex-col items-center gap-1 rounded-xl md:p-6 lg:items-start lg:gap-4">
+              <div className="flex flex-col items-center gap-4 rounded-xl md:p-6 lg:items-start">
                 <h2 className="hidden font-bold text-white drop-shadow-lg lg:flex lg:text-7xl">
                   ABOUT US
                 </h2>
