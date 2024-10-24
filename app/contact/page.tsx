@@ -8,7 +8,7 @@ import { AnimatePresence, m } from "framer-motion";
 
 const ContactUsPage: React.FC = () => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col pb-36 lg:p-0">
       <ContactHero />
       <div className="container mx-auto flex flex-col gap-6 px-6 py-6 lg:flex-row lg:px-0">
         <AnimatePresence initial={true}>
