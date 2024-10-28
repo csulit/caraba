@@ -1,19 +1,19 @@
-import { MapPin, Phone, Mail } from "lucide-react";
+import { MapPin, Mail } from "lucide-react";
 import React from "react";
 
 const ContactInfo: React.FC = () => {
   return (
     <div>
-      <div className="space-y-2">
-        <p className="flex items-center">
-          <MapPin className="mr-2 h-5 w-5 text-primary" /> 123 Financial
-          District, City Center
+      <div className="space-y-4">
+        <p className="flex items-start gap-2">
+          <MapPin className="mt-0.5 h-5 w-5 text-primary" />
+          <div className="flex flex-col gap-2">
+            <span>Charles Court Main Street</span>
+            <span>P.O. Box 4406 Tortola, VG1110, BVI</span>
+          </div>
         </p>
-        <p className="flex items-center">
-          <Phone className="mr-2 h-5 w-5 text-primary" /> +1 (555) 123-4567
-        </p>
-        <p className="flex items-center">
-          <Mail className="mr-2 h-5 w-5 text-primary" /> info@carabaocapital.com
+        <p className="flex items-center gap-2">
+          <Mail className="h-5 w-5 text-primary" /> hello@carabao.capital
         </p>
       </div>
     </div>
