@@ -18,7 +18,7 @@ const AboutHero: React.FC = () => {
       <Image
         src={heroBgImage}
         fill
-        className="vignette absolute object-cover opacity-60"
+        className="vignette absolute object-cover opacity-0 lg:opacity-60"
         alt="bg"
       />
 
